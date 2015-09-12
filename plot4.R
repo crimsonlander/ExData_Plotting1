@@ -1,6 +1,6 @@
 source("read_data.R")
 
-png("plot4.png")
+png("plot4.png", bg="transparent")
 par(mfcol= c(2,2))
 #1
 par(lwd = 1.3)

@@ -1,6 +1,6 @@
 source("read_data.R")
 
-png("plot3.png")
+png("plot3.png", bg="transparent")
 par(lwd = 1)
 plot(d$datetime, d$Sub_metering_1, type = "l", ylab = "Energy sub metering", xlab = "")
 lines(d$datetime, d$Sub_metering_2, type = "l", col = "red")
